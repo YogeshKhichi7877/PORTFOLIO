@@ -1,0 +1,251 @@
+/* #art {
+  max-width: 420px;
+  margin: 40px auto;
+  padding: 32px 24px 24px 24px;
+  background: linear-gradient(135deg, #f8fafc 60%, #e0e7ff 100%);
+  border-radius: 22px;
+  box-shadow: 0 6px 32px rgba(80, 80, 180, 0.12);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+  position: relative;
+  overflow: hidden;
+}
+
+.same, #feedback {
+  width: 100%;
+  padding: 12px 14px;
+  border-radius: 12px;
+  border: 1.5px solid #bfc9d8;
+  background: #fff;
+  font-size: 1rem;
+  transition: border-color 0.2s, box-shadow 0.2s;
+  margin-bottom: 4px;
+  box-sizing: border-box;
+}
+
+.same:focus, #feedback:focus {
+  border-color: #7873f5;
+  box-shadow: 0 0 0 2px #b3b6f7;
+  outline: none;
+}
+
+#art h3 {
+  color: #7873f5;
+  margin: 10px 0 0 0;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+#feedback {
+  min-height: 90px;
+  resize: vertical;
+}
+
+#sub {
+  width: 100%;
+  padding: 12px 0;
+  background: linear-gradient(90deg, #7873f5, #ff6ec4);
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 14px;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(120, 115, 245, 0.12);
+  transition: background 0.3s, transform 0.15s;
+  margin-top: 6px;
+}
+
+#sub:hover, #sub:focus {
+  background: linear-gradient(90deg, #ff6ec4, #7873f5);
+  transform: translateY(-2px) scale(1.03);
+  outline: none;
+}
+
+#yogesh {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #7873f5;
+  margin: 10px 0 0 0;
+  box-shadow: 0 2px 12px rgba(120, 115, 245, 0.15);
+}
+
+#some {
+  margin-top: 8px;
+  color: #444b5d;
+  font-size: 1rem;
+  text-align: center;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  padding-top: 8px;
+}
+
+@media (max-width: 600px) {
+  #art {
+    max-width: 98vw;
+    padding: 18px 5vw;
+    border-radius: 14px;
+  }
+  #yogesh {
+    width: 60px;
+    height: 60px;
+  }
+  #sub {
+    font-size: 1rem;
+    padding: 10px 0;
+  }
+} */
+
+
+/* Fullscreen dark purple gradient background */
+
+.fullscreen-bg {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  width: 100vw;
+  height: 120vh;
+  z-index: -1;
+  background: linear-gradient(120deg, #23074d 0%, #3f0d63 50%, #6a0572 100%);
+  animation: gradientMove 8s ease-in-out infinite alternate;
+  background-size: 200% 200%;
+}
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 100% 50%; }
+}
+
+/* Center the form using flex */
+.centered-form {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+/* Glassmorphism card */
+#art {
+  width: 420px;
+  max-width: 92vw;
+  padding: 40px 32px 32px 32px;
+  background: rgba(34, 7, 77, 0.25);
+  border-radius: 28px;
+  box-shadow: 0 8px 40px rgba(34, 7, 77, 0.28);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+  border: 1.8px solid rgba(239, 233, 239, 0.17);
+}
+
+#art h2 {
+  margin-bottom: 8px;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-align: center;
+  background: linear-gradient(90deg, #db8de0, #712ca2, #6203f2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.same, #feedback {
+  width: 100%;
+  padding: 14px 16px;
+  border-radius: 14px;
+  border: 1.5px solid #4e277e;
+  background: rgba(255,255,255,0.82);
+  font-size: 1.07rem;
+  margin-bottom: 6px;
+  transition: border-color 0.2s, box-shadow 0.2s;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.same:focus, #feedback:focus {
+  border-color: #6a0572;
+  box-shadow: 0 0 0 2px #3f0d63;
+}
+
+#art h3 {
+  color: #bd4ee5;
+  margin: 14px 0 0 0;
+  font-size: 1.15rem;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+#feedback {
+  min-height: 90px;
+  resize: vertical;
+}
+
+#sub {
+  width: 100%;
+  padding: 14px 0;
+  background: linear-gradient(90deg, #3f0d63, #6a0572, #23074d);
+  color: #fff;
+  font-size: 1.15rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 14px;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(34, 7, 77, 0.18);
+  transition: background 0.3s, transform 0.15s;
+  margin-top: 6px;
+  letter-spacing: 1px;
+}
+
+#sub:hover, #sub:focus {
+  background: linear-gradient(90deg, #6a0572, #23074d);
+  transform: translateY(-2px) scale(1.03);
+}
+
+#yogesh {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #6a0572;
+  margin-bottom: 12px;
+  box-shadow: 0 2px 12px rgba(34, 7, 77, 0.13);
+}
+
+#some {
+  margin-top: 10px;
+  color: #f0e6ff;
+  font-size: 1rem;
+  text-align: center;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  padding-top: 8px;
+}
+
+@media (max-width: 600px) {
+  #art {
+    width: 99vw;
+    padding: 16px 4vw;
+    border-radius: 16px;
+  }
+  #yogesh {
+    width: 60px;
+    height: 60px;
+  }
+  #sub {
+    font-size: 1rem;
+    padding: 10px 0;
+  }
+  #art h2 {
+    font-size: 1.3rem;
+  }
+}
+
+

@@ -1,0 +1,197 @@
+@media(max-width:767px){
+    body{
+        width:90%;
+    }
+   
+
+    #hi{
+        font-size: 3vh;
+    }
+    #hi::first-letter{
+        font-size:4vh
+    }
+
+    #name{
+        font-size: 4vh;
+    }
+    #name::first-letter{
+        font-size: 5vh;
+    }
+    #clipbox1{
+        height: 70%;
+        width:90%;
+    }
+    #front{
+        font-size: 2vh;
+        padding-top: 11.3vw;
+
+    }
+    #lorem{
+        font-size: 2vh;
+    }
+    #clipbox2{
+        height:30vh;
+        width:40vw
+    }
+    #sites{
+        font-size: 8vw;
+
+    }
+
+    #skil{
+        font-size: 9vw;
+    }
+    #box1 p{
+        font-size:3.5vw ;
+    }
+    #js1{
+        height:60%;
+
+    }
+    #box2 p{
+        font-size:3.5vw ;
+    }
+    #js2{
+        height:60%;
+    }
+    #box3 p{
+        font-size:3.5vw ;
+    }
+    #js3{
+        height:60%;
+    }
+    #box4 p{
+        font-size:3.5vw ;
+    }
+    #js4{
+        height:60%;
+    }
+    #box5 p{
+        font-size:3.5vw ;
+    }
+    #js5{
+        height:60%;
+    }
+    #box6 p{
+        font-size:3.5vw ;
+    }
+    #js6{
+        height:60%;
+    }
+    #box7 p{
+        font-size:3.5vw ;
+    }
+    #js7{
+        height:60%;
+    }
+    #box8 p{
+        font-size:3.5vw ;
+    }
+    #js8{
+        height:60%;
+    }
+    #box9 p{
+        font-size:3.5vw ;
+    }
+    #js9{
+        height:60%;
+    }
+    
+    #services{
+        font-size:9vw;
+
+    }
+    #inner1{
+        height:80%;
+        width:80%
+    }
+    .write{
+        font-size: 5vw;
+    }
+    .about34{
+        font-size: 1.5vh;
+    }
+
+    #note{
+        height:80%;
+        width:70%;
+       align-items: center;
+    }
+    #design{
+        height:80%;
+        width:80%
+    }
+    #responsive{
+        height:80%;
+        width:80%
+    }
+    
+    #aboutme{
+        font-size: 10vw;
+    }
+    #part1 img{
+        height:60%;
+        width:86%;
+        border-bottom:1vh solid rgb(9, 9, 198);
+        border-left: 1vh solid yellow;
+    }
+    #about21{
+        font-size: 1.6vh;
+        line-height: 2.4vh;
+    }
+    #about21::first-letter{
+        font-size: 3vh;
+        font-weight: 700;
+        color: rgb(27, 142, 209);
+    }
+    #part21{
+        width:50%;
+        padding-left: 2vw;
+        font-size: 1.9vh;
+        color:rgb(225, 138, 25);
+        line-height: 2.9vh;
+    }
+    #part22{
+        width:90%;
+        padding-right: 3vh;
+        font-size: 1.7vh;
+        color:rgb(179, 202, 29);
+        line-height: 3vh;
+    }
+    #mail{
+        height:100%;
+        width:100%;
+        
+
+    }
+    article{
+        height:50vh;
+        width:100vw;
+
+    }
+
+    #feedback{
+        height:20vh
+
+    }
+    .same{
+        height:3vh
+
+    }
+    #some{
+        font-size:4vh;
+        height:15vh
+
+    }
+    #sub{
+        height:3vh;
+        width:17vw;
+        left:20vh;
+
+    }
+    #yogesh{
+        height:35vh;
+        bottom:12vh
+    }
+
+}

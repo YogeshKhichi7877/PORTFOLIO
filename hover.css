@@ -1,0 +1,119 @@
+#ser:hover{
+    color:rgb(14, 224, 25);
+    text-decoration: red solid underline ;
+    text-shadow: 7px 7px 4px black;
+}
+#abo:hover{
+    color:rgb(14, 224, 25);
+    text-decoration: red solid underline ;
+    text-shadow: 7px 7px 4px black;
+}
+#ski:hover{
+    color:rgb(14, 224, 25);
+    text-decoration: red solid underline ;
+    text-shadow: 7px 7px 4px black;
+}
+#con:hover{
+    color:rgb(14, 224, 25);
+    text-decoration: red solid underline ;
+    text-shadow: 7px 7px 4px black;
+}
+
+#face2:hover{
+    color:rgb(35, 108, 168);
+    
+}
+#whats2:hover{
+    color:rgb(7, 116, 9);
+    
+}
+#inst2:hover{
+    color:rgb(180, 82, 7);
+    
+}
+#twi2:hover{
+    color:rgb(45, 168, 202);
+    
+}
+
+#box1:hover{
+    background-color: rgba(173, 100, 237, 0.272);
+}
+
+#box1{
+    transition-property: all;
+    transition-duration: 0.3s;
+}
+
+#box2:hover{
+    background-color: rgba(173, 100, 237, 0.272);
+}
+
+#box2{
+    transition-property: all;
+    transition-duration: 0.3s;
+    
+}
+#box3:hover{
+    background-color: rgba(173, 100, 237, 0.272);
+}
+
+#box3{
+    transition-property: all;
+    transition-duration: 0.3s;
+    
+}
+#box4:hover{
+    background-color: rgba(173, 100, 237, 0.272);
+}
+
+#box4{
+    transition-property: all;
+    transition-duration: 0.3s;
+    
+}
+#box5:hover{
+    background-color: rgba(173, 100, 237, 0.272);
+}
+
+#box5{
+    transition-property: all;
+    transition-duration: 0.3s;
+    
+}
+#box6:hover{
+    background-color: rgba(173, 100, 237, 0.272);
+}
+
+#box6{
+    transition-property: all;
+    transition-duration: 0.3s;
+    
+}
+#box7:hover{
+    background-color: rgba(173, 100, 237, 0.272);
+}
+
+#box7{
+    transition-property: all;
+    transition-duration: 0.3s;
+    
+}
+#box8:hover{
+    background-color: rgba(173, 100, 237, 0.272);
+}
+
+#box8{
+    transition-property: all;
+    transition-duration: 0.3s;
+    
+}
+#box9:hover{
+    background-color: rgba(173, 100, 237, 0.272);
+}
+
+#box9{
+    transition-property: all;
+    transition-duration: 0.3s;
+    
+}
