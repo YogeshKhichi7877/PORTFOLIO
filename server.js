@@ -31,5 +31,5 @@ app.post('/user' ,async (req , res)=>{
 
 app.listen(4000 , (req , res )=>{
     console.log("app listening on port 4000 ");
-    console.log("http://localhost:4000");
+    console.log("https://portfolio-1-9o90.onrender.com");
 })

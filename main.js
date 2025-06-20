@@ -9,7 +9,7 @@ let feedback = document.querySelector("#feedback").value;
 if (name === "" || email === "" || phonenumber==="" || feedback==="") {
   alert("Please enter the details");
 } else {
-  const response = await fetch('http://localhost:4000/user', {
+  const response = await fetch('https://portfolio-1-9o90.onrender.com/user', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({
