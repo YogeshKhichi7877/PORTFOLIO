@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const mongoUrl = 'mongodb://127.0.0.1:27017/Portfolio' ;
+const mongoUrl = 'mongodb+srv://yogeshkhinchi2005:Portfolio78@cluster0.fkgjowk.mongodb.net/'
 
 mongoose.connect(mongoUrl);
 
