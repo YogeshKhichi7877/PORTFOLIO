@@ -23,6 +23,7 @@ if (name === "" || email === "" || phonenumber==="" || feedback==="") {
   if (response.ok) {
   // Login successful, redirect to your main site
     console.log("form submited"); 
+    alert("Form has been submitted :) ");
     document.querySelector('#art').reset();
 } else {
   // Success logic here
