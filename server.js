@@ -1,9 +1,11 @@
 const express = require('express');
+const path = require('path');
 const app = express();
 const cors = require('cors');
 app.use(cors());
 const User = require('./models/user');
 const db = require('./db');
+
 
 const bodyParser = require('body-parser');
 
@@ -28,6 +30,16 @@ app.post('/user' ,async (req , res)=>{
 
    }
 })
+
+// Serve static files from 'public' directory
+app.use(express.static(path.join(__dirname, 'public')));
+
+// Create download route
+app.get('/download-cv', (req, res) => {
+  const filePath = path.join(__dirname, 'public', 'cv', 'yogeshCV.pdf');
+  res.download(filePath, 'YOGESH_CV.pdf'); // Custom filename for download
+});
+
 
 app.listen(4000 , (req , res )=>{
     console.log("app listening on port 4000 ");
