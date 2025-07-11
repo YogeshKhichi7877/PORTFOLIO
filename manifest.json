@@ -1,0 +1,22 @@
+{
+    "name" : "Yogesh Portfolio",
+    "short_name" : "YP",
+    "start_url": "/portfolio.html",
+    "background_color" : "#ffffff",
+    "theme_color" : "#000000",
+    "description" : "This is Yogesh khinchi's portfolio page . Undergraduation in IIIT SURAT ",
+    "display" : "standalone",
+    "icons" : [
+        {
+            "src" : "android-launchericon-192-192.png ",
+            "sizes" : "192x192",
+            "image" : "image/png"
+        },
+         {
+            "src" : "android-launchericon-512-512.png ",
+            "sizes" : "512x512",
+            "image" : "image/png"
+        }
+    ]
+
+}

@@ -6,26 +6,17 @@ body{
     overflow-x: hidden;
 }
 
-#nav{ height:8vh; width: 100vw;background-color: rgb(3, 5, 49); display:grid; grid-template-columns: 14vw 70vw;grid-template-rows: 15vh;column-gap: 2vw; border-bottom: 1vh solid black; z-index: 1;}
-#options{ width:70vw; display:grid; grid-template-columns:25% 25% 25% 25%; grid-template-rows: 7vh; column-gap: 5%; align-content:center; align-items: start; align-self:start;}
-
-#logo{ height:66%; width:52%; transition-duration: 0.5s; transition-property: all;transition-timing-function: ease-in-out;}
-#ser{ text-decoration: none; font-size: 100%; height:70%; font-size: large; width:80%; border-radius: 1vh; align-self: center; color:rgb(251, 199, 14);transition-duration: 0.3s; transition-property: all;transition-timing-function: ease-in-out;}
-#abo{ font-size:large; text-decoration: none; color:rgb(251, 199, 14); height:70%; width:80%;  align-self: center;  border-radius: 1vh; transition-duration: 0.3s;transition-property: all; transition-timing-function: ease-in-out;}
-#con{font-size: large; text-decoration: none;  color:rgb(251, 199, 14); height:70%;  width:96%;  align-self: center;  border-radius: 1vh; transition-duration: 0.3s; transition-property: all;transition-timing-function: ease-in-out;}
-#ski{font-size: large; text-decoration: none;  color:rgb(251, 199, 14);  height:70%;  width:96%;  align-self: center;  border-radius: 1vh; transition-duration: 0.3s; transition-property: all;transition-timing-function: ease-in-out;}
-
-
 .navbar {
   background: linear-gradient(90deg, #2a0266 70%, #22025e 100%);
   box-shadow: 0 4px 18px rgba(70, 35, 122, 0.10);
   border-bottom-left-radius: 18px;
   border-bottom-right-radius: 18px;
   padding: 0.3rem 0;
-  position: sticky;
+  position: fixed;
   top: 0;
   z-index: 100;
-  min-height: 60px;
+  min-height: 80px;
+  border-bottom: 3px solid whitesmoke;
 }
 
 .navbar-brand {
@@ -234,13 +225,12 @@ body {
   font-family: 'Segoe UI', Arial, sans-serif;
   margin: 0;
 }
-
 /* Main container animation */
 
 
 #main1 {
   width: 100vw;
-  height: 100vh;
+  height: 110vh;
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -248,6 +238,7 @@ body {
   gap: 2vw;
   box-sizing: border-box;
   padding: 0 4vw;
+  border-bottom: 5px double black;
 }
 
 #allwritten {
@@ -535,15 +526,11 @@ color: #ff2d55;
   .social-btn { width: 48px; height: 48px; font-size: 1.7rem; }
 }
 
-@media (max-width: px) {
-  
-}
-
 
 /* new css added  */
 #main2 {
   width: 100vw;
-  height: 90vh;
+  height: 135vh;
   background: linear-gradient(120deg, #2d085d 0%, #46237A 60%, #6F41C2 100%);
   display: flex;
   flex-direction: column;
@@ -555,6 +542,7 @@ color: #ff2d55;
    padding-top: 0;
   margin-top: 0 ;
   position: relative;
+  border-bottom: 5px double black;
 }
 
 #skil {
@@ -687,6 +675,7 @@ color: #ff2d55;
 #main3 {
   background: linear-gradient(120deg, #23074d 0%, #46237A 100%);
   border-radius: 18px;
+  border: 5px double rgb(9, 152, 235);
   max-width: 102vw;
   margin: 36px auto 0 auto;
   padding: 48px 0 48px 0;
@@ -849,6 +838,7 @@ color: #ff2d55;
 #main4 {
   background: linear-gradient(120deg, #23074d 0%, #46237A 60%, #6F41C2 100%);
   border-radius: 22px;
+  border: 1vh solid rgb(197, 207, 6);
   box-shadow: 0 8px 40px rgba(70, 35, 122, 0.13);
   padding: 56px 5vw 56px 5vw;
   max-width: 1200px;
@@ -1092,9 +1082,7 @@ color: #ff2d55;
     min-width: 0;
     padding: 8px 0;
   }
-  #allbtn{
-    /* margin-left: 9rem; */
-  }
+ 
 }
 
 /* wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww */
