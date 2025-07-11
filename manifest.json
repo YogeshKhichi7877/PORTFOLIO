@@ -1,7 +1,7 @@
 {
     "name" : "Yogesh Portfolio",
     "short_name" : "YP",
-    "start_url": "/portfolio.html",
+    "start_url": "/index.html",
     "background_color" : "#ffffff",
     "theme_color" : "#000000",
     "description" : "This is Yogesh khinchi's portfolio page . Undergraduation in IIIT SURAT ",
