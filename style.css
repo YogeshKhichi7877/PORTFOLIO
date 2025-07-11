@@ -230,8 +230,8 @@ body {
 
 #main1 {
   width: 100vw;
-  height: 110vh;
-  min-height: 100vh;
+  height: 130vh;
+ 
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -337,7 +337,7 @@ color: #ff2d55;
   #front {
     
     font-size: 1.1rem;
-    padding: 0.5rem 1.2rem; 
+    padding: 0.5rem 0.6rem; 
     border-radius: 0.8rem;
     margin-bottom: 1rem;
     margin-right: auto;
@@ -347,7 +347,7 @@ color: #ff2d55;
     box-shadow: 0 2px 8px #000000f3;
     min-width: 0;
     width: auto;
-    height : 7vh;
+    height : 9vh;
     text-align: center;
     
   }
@@ -355,9 +355,9 @@ color: #ff2d55;
     justify-content: center;   /* centers horizontally */
     align-items: center; 
     text-align: center;
-    margin-bottom: 3rem;
+    margin-bottom: 0.5rem;
     font-weight: 900;
-    font-size: larger;
+    font-size: large;
 
   }
   #front i {
@@ -367,19 +367,19 @@ color: #ff2d55;
     justify-content: center;   /* centers horizontally */
     align-items: center; 
     text-align: center;
-    margin-bottom: 3rem;
+    margin-bottom: 0.5rem;
   }
   #main1 {
     padding: 0.5rem;
     gap: 1.2rem;
   }
-  #clipbox2 {
-    height: 20vh;
+  #clipbox2 { 
+    height: 40vh;
     width: 20vw;
   }
   #clipbox2 img {
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
   }
   #hi span { font-size: 2rem; }
   #name { font-size: 1.5rem; }
@@ -646,6 +646,7 @@ color: #ff2d55;
 
 /* Responsive adjustments */
 @media (max-width: 900px) {
+   #main2{height : 250vh}
   .skills-heading { font-size: 1.7rem; }
   .skills-grid { grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 14px 10px; }
   #skil { margin-bottom: 18px; }
