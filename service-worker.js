@@ -5,7 +5,7 @@ const urlsToCache = [
   'style.css',
    'style2.css',
     'style3.css',
-    'hover.css',
+    'index.css',
     'manifest.json',
   'android-launchericon-512-512.png'  ,
   'android-launchericon-192-192.png'
