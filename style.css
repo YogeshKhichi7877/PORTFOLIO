@@ -223,7 +223,6 @@ body{
 /* wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww */
 body {
   background: linear-gradient(120deg, #f8fafc 0%, #e0e7ef 100%);
-  min-height: 100vh;
   font-family: 'Segoe UI', Arial, sans-serif;
   margin: 0;
 }
@@ -654,6 +653,7 @@ color: #ff2d55;
   #skil { margin-bottom: 18px; }
 }
 @media (max-width: 700px) {
+    #main2{height : 270vh}
   .skills-heading { font-size: 2.2rem; }
   .skills-grid { grid-template-columns: 1fr 1fr; gap: 14px 8px; width: 99vw; }
   .skill-card { padding: 18px 4px 12px 4px; min-width: 0; width : 25vw }
