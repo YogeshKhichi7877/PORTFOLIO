@@ -478,7 +478,7 @@
     <div class="skill-card"><img src="django.jpg" alt="django"><p>django</p></div>
     <div class="skill-card"><img src="html-removebg-preview.png" alt="HTML"><p>HTML</p></div>
     <div class="skill-card"><img src="html5-logo-css-logo-png-transparent-svg-vector-bie-supply-9.png" alt="CSS"><p>CSS</p></div>
-    <div class="skill-card"><img src="c-removebg-preview.png" alt="C language"><p>C language</p></div>
+    <div class="skill-card"><img src="threejs.png" alt="C language"><p>Three.js</p></div>
     <div class="skill-card"><img src="mongodb.png" alt="MongoDB"><p>MongoDB</p></div>
     <div class="skill-card"><img src="node-removebg-preview (1).png" alt="Node Js"><p>Node Js</p></div>
   </div>
@@ -526,6 +526,17 @@
   </div>
 </main>
 
+<!-- three.js code starts here canvas 3D model of my portfolio -->
+<div id="container">  
+
+  <div id="threejs">
+    <canvas id="canvas"></canvas>
+   </div>
+   <p id="model">Explore creativity in every angle — interact with my world in 3D.</p>
+   <p id="model">Experience design beyond the screen — immersive and interactive.</p>
+  
+</div>
+
 
 
 
@@ -534,6 +545,11 @@
   <div id="part1">
     <img src="3d image2.png" alt="photo">
   </div>
+
+  <div id="dcontainer">
+    <canvas id="canvas2"></canvas>
+  </div>
+
   <div id="part2">
     <div id="about21">
       hey ! i am from a small city of RAJASTHAN called jodhpur .. i am currently doing my B-tech from one of the famouse college IIIT-SURAT ... i have done my schooling from __ school and currently i am a frontend developer .. i have a experience of 10+ projects in this branch of B-tech..
@@ -627,6 +643,18 @@
 
    <script src="main.js"></script>
    <script src="cv.js"></script>
+   <script type="importmap">
+    {
+      "imports": {
+        "three": "https://unpkg.com/three@0.139.2/build/three.module.js",
+        "GLTFLoader": "https://unpkg.com/three@0.139.2/examples/jsm/loaders/GLTFLoader.js",
+        "OrbitControls": "https://unpkg.com/three@0.139.2/examples/jsm/controls/OrbitControls.js",
+        "RGBELoader": "https://unpkg.com/three@0.139.2/examples/jsm/loaders/RGBELoader.js"
+      }
+    }
+    </script>
+    <script type="module" src="three.js"></script>
+    <script type="module" src="three2.js"></script>
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
  
  <script>
